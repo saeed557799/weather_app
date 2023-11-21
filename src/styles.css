@@ -1,0 +1,216 @@
+/* search portion css */
+.search-portion {
+  background-color: #19202d;
+}
+.weather-portion {
+  background-color: #232b39;
+}
+.input {
+  background-color: #232b39;
+  color: #8f94af !important;
+  border: none;
+  height: 32px;
+  border-radius: 2px;
+  width: 100%;
+}
+.input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #909090;
+  font-size: 13px;
+  margin-left: 134px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: #909090;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -25px;
+}
+
+@media screen and (max-width: 1095px) {
+  .input {
+    width: 80%;
+    margin-left: 23px;
+  }
+  .search-icon {
+    margin-left: 35px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .input {
+    width: 70%;
+    margin-left: 37px;
+  }
+  .search-icon {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .input {
+    width: 100%;
+    margin-left: auto;
+  }
+  .search-icon {
+    margin-left: 10px;
+  }
+}
+.text-30 {
+  color: #fff;
+  font-size: 100px;
+}
+.degree {
+  color: #fff;
+  font-size: 50px;
+}
+.mist {
+  border-bottom: 1px solid #232b39;
+  font-size: 20px;
+}
+.time-color {
+  color: #7f7f7f;
+}
+.feel-like {
+  color: #7f7f7f;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+.sunday {
+  color: #fff;
+  font-size: 30px;
+}
+.lahore {
+  font-size: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 1065px) {
+  .below-img-div {
+    margin-left: 30px;
+  }
+}
+/* weather portioin css  */
+.header-degree {
+  background-color: #1a1a1a;
+  font-size: 18px;
+  border-radius: 100%;
+  padding: 5px;
+  width: 29px;
+  height: 32px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+.today {
+  font-size: 24px;
+}
+.w-time-color {
+  color: #7f7f7f;
+  font-size: 14px;
+}
+.w-sunday {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+}
+.card {
+  background-color: #19202d !important;
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  border-radius: 20px !important;
+}
+.few-clouds {
+  color: #7f7f7f;
+  font-size: 13px;
+}
+.card-30 {
+  color: #fff;
+  font-size: 16px;
+}
+.today-highlight-span {
+  color: #7f7f7f !important;
+  font-size: 13px !important;
+  margin-left: 3px;
+}
+.today-highlight-sunrise {
+  color: #7f7f7f;
+  font-size: 13px;
+  margin-left: 75px;
+  margin-top: -25px;
+}
+.w-sunday-time {
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+}
+.week-card-30 {
+  color: #fff;
+  font-size: 16px;
+  margin-top: -16px;
+}
+.week-card {
+  background-color: #19202d !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  border-radius: 20px;
+}
+
+.today-card {
+  background-color: #19202d !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  border-radius: 20px;
+}
+
+/* slider css  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+
+.slider {
+  margin: 0 20px;
+  overflow: 'hidden';
+  padding: 2rem 0;
+}
+
+.slider img {
+  /* width: 100%; */
+  border-radius: 10px;
+}
+
+.react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+}
+
+.custom-dot-list-style button {
+  border: none;
+  background: rgb(255, 68, 68);
+}
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: rgb(255, 68, 68) !important;
+}
+.main-slider-body {
+  border: 1px solid whitesmoke;
+  color: #ffff;
+  text-align: center;
+  background-color: #19202d !important;
+}
